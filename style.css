@@ -1,0 +1,452 @@
+/*** GLOBALS ***/
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #ffffff;
+	font-weight: 200;
+	background-color: #1a1a1a;
+}
+
+#companies, #features, #education, #portfolio, #pricing, #contact {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.subheader {
+	max-width: 750px;
+	margin: 10px auto 90px auto;
+	color: #a6a6a6;
+	font-size: 16px;
+}
+
+.shadow {
+	box-shadow: 10px 10px 50px #1a1a1a;
+}
+
+h2, h4 {
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+
+
+/* NAVBAR */
+
+.navbar {
+	background-color: #2d2d36;
+	box-shadow: 5px 5px 30px #1a1a1a;
+	letter-spacing: 2px;
+	border-radius: 0;
+}
+
+.navbar-brand {
+	font-family: 'Lobster', cursive;
+	font-size: 24px !important;
+	color: #cf8d46 !important;
+}
+
+.navbar-nav li a {
+	color: #cf8d46 !important;
+}
+
+.navbar-nav li a:hover {
+	background-color: #d59b5d !important;
+	color: #2d2d36 !important;
+} 
+
+.navbar-nav .active {
+	color: #2d2d36 !important;
+	background-color: #cf8d46 !important;
+}
+
+.navbar-nav i {
+	font-size: 18px;
+}
+
+
+
+/* JUMBOTRON */
+
+#jumbotron {
+	height: 100vh;
+	background: url(img/dark-sky.png) no-repeat;
+	background-size: cover;
+	margin-bottom: 0;
+}
+
+#jumbotron .container {
+	height: 100vh;
+	display: table;
+}
+
+#typescript, #title {
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#typescript {
+	display: table-cell;
+	text-align: center;
+}
+
+.typed-cursor {
+	display: none;
+}
+
+#typed {
+	font-weight: 200;
+	font-size: 40px;
+}
+
+#title {
+	display: none;
+	text-shadow: 12px 12px 20px #0d0d0d;
+}
+
+#title button {
+	box-shadow: 12px 12px 20px #0d0d0d;
+}
+
+#title button:focus {
+	box-shadow: 5px 5px 20px #0d0d0d;
+	outline: 0;
+}
+
+#title .fa-magic {
+	font-size: 120px;
+	color: #cf8d46;
+}
+
+#chris {
+	font-size: 90px;
+	font-family: 'Lobster', cursive;
+	color: #cf8d46;
+}
+
+#description {
+	font-size: 24px;
+}
+
+.fa-arrow-circle-o-down {
+	font-size: 50px;
+}
+
+#arrow-down {
+	margin-top: 40px;
+	position: relative;
+	z-index: 2;
+}
+
+/* FEATURES SECTION */
+
+#features {
+	background: -webkit-linear-gradient(left top, #2d2d36, #3b2c33);
+}
+
+.feature-icons {
+	font-size: 35px;
+	color: #cf8d46;
+}
+
+#features p {
+	color: #a6a6a6;
+}
+
+#features .col-sm-4 {
+	padding: 40px;
+}
+
+.rating {
+	color: #ffaa00;
+}
+
+
+
+/* SIZZLE SECTION */
+
+.sizzle {
+	background-color: #262626;
+	-webkit-box-shadow: inset 0 0 60px #000000;
+          	box-shadow: inset 0 0 60px #000000;
+    color: #cf8d46;
+}
+
+.carousel-inner {
+	height: 160px;
+}
+
+.carousel-indicators li {
+	border-color: #cf8d46;
+}
+
+.carousel-indicators li.active {
+	background-color: #cf8d46;
+}
+
+.item h3 {
+	font-size: 28px;
+	margin: 50px 10px 80px 10px;
+}
+
+
+
+/* COMPANIES I'VE WORKED FOR SECTION */
+
+#companies {
+	background: -webkit-radial-gradient(#6e3c3c, #2d2d36);
+}
+
+#disclaimer {
+	color: #33cc33;
+}
+
+.titles {
+	font-weight: bold;
+	color: #33cc33;
+}
+
+#companies h4 {
+	font-size: 28px;
+	font-weight: 300;
+}
+#companies .row {
+	margin-bottom: 90px;
+}
+
+#companies img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.carmax-logo {
+	height: 275px;
+	width: 275px;
+}
+
+#citrix-logo {
+	height: 175px;
+	width: 300px;
+}
+
+#coming-soon-logo {
+	background-color: #ffffff;
+	height: 250px;
+	width: 250px;
+}
+
+#coming-soon-logo img {
+	position: relative;
+	top: 75px;
+	height: 100px;
+	width: 100px;
+}
+
+
+
+/* EDUCATION */
+
+#education {
+	background: -webkit-linear-gradient(#2c303d, #5c373c);
+}
+
+#education img {
+	height: 225px;
+	width: 330px;
+}
+
+#education h3 {
+	color: #ffffff;
+}
+
+.where, .when {
+	font-size: 18px;
+}
+
+.where {
+	color: #00ff00;
+}
+
+.when {
+	color: #3385ff;
+}
+
+.well {
+	box-shadow: 5px 5px 40px #262626;
+	background-color: #333333;
+	transition: 0.3s;
+}
+
+.well:hover {
+    box-shadow: 15px 15px 40px #262626;
+    background-color: #404040;
+}
+
+.edu-img {
+	margin-bottom: 15px;
+	min-height: 235px;
+}
+
+
+
+/* PORTFOLIO COMING SOON SECTION */
+
+#portfolio {
+	background-color: #262626;
+	-webkit-box-shadow: inset 0 0 60px #000000;
+          	box-shadow: inset 0 0 60px #000000;
+}
+
+#portfolio p {
+	font-size: 25px;
+	font-weight: 100;
+}
+
+#portfolio img {
+	height: 150px;
+	width: 170px;
+	border-radius: 100%;
+	margin: 15px auto 25px auto;
+}
+
+
+
+/* PRICING SECTION */
+
+#pricing {
+	background: url(img/dark-sky.png) no-repeat;
+	background-size: cover;
+}
+
+#pricing .subheader {
+	color: #e6e6e6;
+	font-size: 18px;
+}
+
+.panel-body {
+	background-color: #2d2d36;
+}
+
+.panel-footer {
+	background-color: #3a3a45;
+}
+
+
+
+/* MODALS*/
+
+.modal-body {
+	background-color: #2d2d36;
+}
+
+.modal-header, .modal-footer {
+	background-color: #3a3a45;
+}
+
+#myModal p {
+	color: #cccccc;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+.talk {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+
+
+/* CONTACT SECTION */
+
+#contact {
+	background-color: #262626;
+}
+
+#contact h2 {
+	margin-bottom: 50px;
+}
+
+#contact p {
+	color: #b3b3b3;
+}
+
+#contact .col-sm-3 {
+	margin-bottom: 30px;
+}
+
+#contact .fa {
+	font-size: 35px;
+}
+
+.fa-linkedin {
+	color: #0066cc;
+}
+
+.fa-envelope {
+	color: #ff6600;
+}
+
+.fa-phone {
+	color: #33cc33;
+}
+
+.fa-github {
+	color: #9900ff;
+}
+
+
+
+/* FOOTER */
+
+#footer {
+	background-color: #1a1a1a;
+	padding: 25px 0;
+	font-size: 13px;
+}
+
+#footer .fa {
+	font-size: 18px;
+}
+
+.fa-coffee {
+	color: #c68c53;
+}
+
+.fa-music {
+	color: #0066ff;
+}
+
+.fa-laptop {
+	color: #808080;
+}
+
+
+
+@media only screen and (min-width: 768px){
+
+	.carousel-inner {
+		height: 220px;
+	}
+
+	.long-quote {
+		margin-top: -14px;
+	}
+
+	.item h3 {
+		font-size: 40px;
+	}
+
+	.edu-img {
+		margin-right: 25px;
+	}
+
+}
+
+
